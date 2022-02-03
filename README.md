@@ -64,7 +64,7 @@ For thos project a PlanMyTrip app is being developed. Management has recommended
 
 3. Using the temperature preferences from the user we filtered the DataFrame, using the *loc* method, and then drop rows if they have any missing data.  We then create a new DataFrame and add a column to place hotel names.
 
-        ![hotel dataframe](/Resources/hotel_df.png)
+      ![final hotel dataframe](/Resources/clean_hotel_df.png)
 
 4. Using Google Places Nearby Search we make a "lodging" request using the coordinates ('Lat','Lng') for each row in our DataFrame.
 
